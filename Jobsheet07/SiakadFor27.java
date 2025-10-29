@@ -10,6 +10,8 @@ public class SiakadFor27 {
         double nilai;
         double tertinggi = 0;
         double terendah = 100;
+        double lulus = 0;
+        double tidaklulus = 0;
 
         for (int i = 1; i <= 10; i++) {
             System.out.println("masukkan nilai makasiswa ke-" + i + ": ");
@@ -19,6 +21,11 @@ public class SiakadFor27 {
             }
             if (nilai < terendah) {
                 terendah = nilai;
+            }
+            if (i >= 60) {
+                lulus++;
+            } else {
+                tidaklulus++;
             }
         }
         System.out.println("nilai tertinggi:" + tertinggi);
