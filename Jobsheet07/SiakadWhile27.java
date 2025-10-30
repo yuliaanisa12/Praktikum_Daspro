@@ -30,7 +30,7 @@ public class SiakadWhile27 {
             } else if (nilai > 65 && nilai <= 73) {
                 System.out.println("nilai ke-" + (i + 1) + "adalah B");
             } else if (nilai > 60 && nilai <= 65) {
-                System.out.println("nilai ke-" + (i + 1) + "adalah A");
+                System.out.println("nilai ke-" + (i + 1) + "adalah C+");
             } else if (nilai > 50 && nilai <= 60) {
                 System.out.println("nilai ke-" + (i + 1) + "adalah C");
             } else if (nilai > 39 && nilai <= 50) {
