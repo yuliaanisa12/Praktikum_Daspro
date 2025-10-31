@@ -3,8 +3,8 @@ package Jobsheet07;
 import java.util.Scanner;
 
 public class SiakadFor27 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
+    {
 
         // variabel
         double nilai;
