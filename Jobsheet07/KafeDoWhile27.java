@@ -1,3 +1,4 @@
+package Jobsheet07;
 
 import java.util.Scanner;
 
@@ -27,6 +28,8 @@ public class KafeDoWhile27 {
             System.out.println("Total harga untuk " + NamaPelanggan + " adalah: Rp " + totalHarga);
             sc.nextLine();
         } while (true);
+        System.out.println("semua transaksi selesai. selesai.");
         sc.close();
     }
+
 }
