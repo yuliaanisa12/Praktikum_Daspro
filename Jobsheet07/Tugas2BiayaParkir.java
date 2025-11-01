@@ -44,7 +44,7 @@ public class Tugas2BiayaParkir {
                 System.out.println("Input tidak valid. Coba lagi.");
             }
         }
-        System.out.println("\n=== RINGKASAN PARKIR HARI INI ===");
+        
         System.out.println("Total pendapatan parkir: Rp " + totalPendapatan);
 
         sc.close();
