@@ -35,7 +35,7 @@ public class Tugas1PenjualanTiketBioskop {
         System.out.println("harga per tiket: Rp" + hargaTiket);
         System.out.println("diskon: " + (diskon * 100) + "%");
         System.out.println("total yang harus dibayar: Rp " + hargaSetelahDiskon);
-
         sc.close();
+    
     }
 }

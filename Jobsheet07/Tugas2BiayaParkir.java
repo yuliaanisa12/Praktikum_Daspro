@@ -3,25 +3,50 @@ package Jobsheet07;
 import java.util.Scanner;
 
 public class Tugas2BiayaParkir {
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+      
 
-        // variabel
-        int jenis;
+       int totalPendapatan = 0;
         int durasi;
-        int total;
+        int tarifSaatIni;
+        System.out.println(" PROGRAM PARKIR KENDARAAN ");
 
-        while (jenis != 0) {
+        while (true) {
 
-            System.out.println("masukkan jenis kendaraan:");
-            System.out.println("(1mobil, 2motor, 0keluar)");
-
-            if (scanner.hasNextInt()) {
-                jenis = scanner.nextInt();
-            } else {
-                System.out.println("");
+            System.out.print("\nMasukkan jenis kendaraan (mobil/motor, ketik 'selesai' untuk keluar): ");
+            String jenisKendaraan = sc.next();
+            if (jenisKendaraan.equalsIgnoreCase("selesai")) {
+                System.out.println("Input selesai. Menghitung total pembayaran...");
+                break;
             }
+            if (jenisKendaraan.equalsIgnoreCase("mobil")) {
 
+                System.out.print("Masukkan durasi parkir (jam): ");
+                durasi = sc.nextInt();
+
+                tarifSaatIni = durasi * 3000;
+
+                System.out.println("Biaya parkir kendaraan ini: Rp " + tarifSaatIni);
+                totalPendapatan += tarifSaatIni;
+
+            } else if (jenisKendaraan.equalsIgnoreCase("motor")) {
+
+                System.out.print("Masukkan durasi parkir (jam): ");
+                durasi = sc.nextInt();
+
+                tarifSaatIni = durasi * 2000;
+                System.out.println("Biaya parkir kendaraan ini: Rp " + tarifSaatIni);
+                totalPendapatan += tarifSaatIni;
+
+            } else {
+                System.out.println("Input tidak valid. Coba lagi.");
+            }
         }
+        System.out.println("\n=== RINGKASAN PARKIR HARI INI ===");
+        System.out.println("Total pendapatan parkir: Rp " + totalPendapatan);
+
+        sc.close();
     }
 }
