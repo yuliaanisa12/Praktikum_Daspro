@@ -17,6 +17,6 @@ public class Triangle27 {
             }
             i++;
         }
-
+        sc.close();
     }
 }

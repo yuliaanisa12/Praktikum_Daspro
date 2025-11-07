@@ -16,7 +16,6 @@ public class Square27 {
             }
             System.out.println();
         }
-
         sc.close(); 
     }
 }
