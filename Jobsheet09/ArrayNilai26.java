@@ -2,8 +2,6 @@ package Jobsheet09;
 
 import java.util.Scanner;
 
-import Jobsheet08.NilaiKelompok27;
-
 public class ArrayNilai26 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
