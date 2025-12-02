@@ -2,11 +2,18 @@ package Jobsheet12;
 
 public class Kafe26 {
 
-    public static void Menu(String namaPelanggan, boolean isMember) {
+    public static void Menu(String namaPelanggan, boolean isMember, String KodePromo) {
         System.out.println("Selamat datang, "+ namaPelanggan + "!");
-
+    
         if(isMember) {
             System.out.println("Anda adalah member, dapat diskon 10% untuk setiap pembelian!");
+        }
+        if(KodePromo.equals("DISKON50")) {
+            System.out.println("kode promo valid! anda mendapatkan diskon 50%");
+        } else if (KodePromo.equals("DISKON30")){
+            System.out.println("kode promo valid! anda mendapatkan diskon30%");
+        } else {
+            System.out.println("kode promo invalid");
         }
 
         System.out.println("==== MENU RESTO KAFE ====");
@@ -20,7 +27,7 @@ public class Kafe26 {
         System.out.println("Silakan pilih menu yang adnda inginkan");
     }
     public static void main(String[] args) {
-        Menu("Andi", true);
+        Menu("Andi", true, "DISKON50");
     }
 }
     
