@@ -26,6 +26,7 @@ public class SIAKAD26 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
         
