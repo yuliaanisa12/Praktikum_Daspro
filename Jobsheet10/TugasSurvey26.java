@@ -62,6 +62,7 @@ public class TugasSurvey26 {
 
         double rataKeseluruhan = (double) totalSemua / (responden * pertanyaan);
         System.out.println("Rata-rata keseluruhan: " + rataKeseluruhan);
+    sc.close();
     }
 }
 
