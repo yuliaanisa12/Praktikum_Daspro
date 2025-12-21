@@ -40,6 +40,8 @@ public class NilaiMahasiswa26 {
 
         int totalNilai = hitTot(nilaiMhs);
         System.out.println("\nTotal nilai seluruh mahasiswa = " + totalNilai);
+        input.close();
+
     }
 }
 
