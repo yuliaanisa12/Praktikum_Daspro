@@ -50,7 +50,7 @@ public class ArrayRataNilai26 {
         System.out.println("Mahasiswa dengan nilai terendah = " + nilaiTerendah);
         System.out.println("Rata-rata nilai lulus = " + rataLulus);
         System.out.println("Rata-rata nilai tidak lulus = " + rataTidakLulus);
-
+        sc.close();
     }
 }
     
