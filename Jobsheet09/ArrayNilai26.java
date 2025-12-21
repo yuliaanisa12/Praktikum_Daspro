@@ -18,7 +18,8 @@ public class ArrayNilai26 {
             } else {
                 System.out.println("mahasiswa ke-"+i+" TIDAK LULUS!");
             }
-        }
+     
+       }
+       sc.close();
     }
-    
 }
