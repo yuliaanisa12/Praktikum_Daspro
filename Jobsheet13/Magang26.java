@@ -135,6 +135,8 @@ public class Magang26 {
             }
 
         } while (pilihan != 0);
+
+        sc.close();
     }
 }
 
