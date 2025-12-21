@@ -67,6 +67,7 @@ public class Kafe26 {
 
         int totalAkhir = hitungTotalHarga(totalSemuaPesanan, kodePromo);
         System.out.println("Total akhir setelah promo: Rp " + totalAkhir);
+    sc.close();
     }
 }
 
