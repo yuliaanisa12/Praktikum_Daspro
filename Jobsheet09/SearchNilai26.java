@@ -18,6 +18,7 @@ public class SearchNilai26 {
         System.out.println();
         System.out.println("nilai "+key+"ketemu di indeks ke-"+hasil);
         System.out.println();
+        sc.close();
     }
 }
 
