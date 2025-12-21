@@ -18,6 +18,7 @@ public class BioskopWithScanner26 {
             System.out.println("3. Exit");
             System.out.print("Pilih menu: ");
             int menu = sc.nextInt();
+            sc.close();
 
             switch (menu) {
 
